@@ -30,7 +30,7 @@ export const Result = ({ result }) => {
         margin: "0px 0px",
         backgroundColor: "#ffd953",
         width: "100%",
-        height: "77.6%",
+        height: "90%",
         borderRadius: "0px 0px 20px 0px",
       }}
     >
