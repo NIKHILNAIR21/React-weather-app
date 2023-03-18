@@ -1,11 +1,13 @@
 import { Box, styled } from "@mui/material";
 import Sunset from "../assets/images/bg (1).jpg";
-
+import { Form } from "../components/Form";
+import { Result } from "../components/Result";
 const Component = styled(Box)({
   height: "100vh",
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
+  margin: "auto",
   width: "65%",
 });
 
@@ -21,7 +23,10 @@ const Home = () => {
   return (
     <Component>
       <Image></Image>
-      <Box>Hello</Box>
+      <Box style={{ width: "73%", height: "80%" }}>
+        <Form />
+        <Result />
+      </Box>
     </Component>
   );
 };
